@@ -1,5 +1,14 @@
-// Este es el punto de entrada de tu aplicacion
+import { home } from './lib/view/templateHome.js';
+import { nav } from './lib/view/templateNav.js';
+import { changeRoute } from './lib/router.js';
 
-import { myFunction } from './lib/index.js';
+const init = () => {
+  document.getElementById('root').appendChild(nav());
+  document.getElementById('root').appendChild(home());
+  // window.location.href=  "/#"
+  window.addEventListener('hashchange', () => {
+    changeRoute(window.location.hash);
+  });
+};
 
-myFunction();
+window.addEventListener('load', init);

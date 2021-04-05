@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #BDBDBD;
+}
+.max-width{
+    max-width: 100%;
+    margin: auto;
+}
+/* Estilo de Navbar */
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 92px;
+    padding: 0;
+    background: #636363;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    font-family: 'Big Shoulders Display', cursive;   
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-between;
+    height: inherit;
+}
+.navbar .logo a span{
+    top: -10px;
+    position: absolute;
+}
+.navbar .logo a{
+    color: #CE2D3F;
+    font-size: 96px;
+    font-weight: 800;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+} 
+.navbar .menu li a{
+    color: #EBEBEB;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 25PX;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #CE2D3F;
+}
+/* estilo de home */
+.home{
+    display: flex;
+    min-height: 500px;
+}
+.home .home-content{
+    display: flex;
+}
+.home .home-content .name{
+    width: 1512px;
+    
+}
+.home .home-content .name img{
+    width: 100%;
+    padding-top: 20%;
+
+}
+.home .home-content .photo{
+    width: 430.68px;
+    height: 508.2px;
+}
+.home .home-content .photo img{
+    padding-top: 40%;
+    padding-left: 20%;
+}
+.home .home-content .pen{
+    width: 904px;
+    height: 834px;
+}
+.home .home-content .pen img{
+    width: 100%;
+    padding-top: 75%;
+    padding-left: 25%;
+}
+.home .max-width .btnentry{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -178px;
+}
+.home .max-width .btnentry a{
+    display:inline-block;
+    background: #CE2D3F;
+    color: #EBEBEB;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 36px;
+    margin-top: -20px;
+    border-radius: 9px;
+    border: 2px solid #CE2D3F;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+.home .max-width .btnentry a:hover{
+    background: #d15160;
+}
+/* Seccion Proyectos */
+
+.projects .projects-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects .stripe img{
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.projects .projects-content .work{
+    width: 100%;
+    max-width: 700px;
+  }
+   .projects .projects-content .work img{
+    width: 100%;
+    height: auto;
+  }
+  .projects .projects-content .work .btnG{
+    transform: translate(25%, -200%);
+    -ms-transform: translate(-50%, -50%);
+    width: 177px;
+    height: 53px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #636363;
+    background: #EBEBEB;
+    border: 2px solid #EBEBEB;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .projects .projects-content .work .btnG:hover{
+    background: #ffff;
+  }
+   .projects .projects-content .work .btnD{
+    transform: translate(20%, -200%);
+    -ms-transform: translate(-50%, -50%);
+    width: 177px;
+    height: 53px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EBEBEB;
+    background: #CE2D3F;
+    border: 2px solid #CE2D3F;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .projects .projects-content .work .btnD:hover{
+    background: #d15160;
+  }
+  .projects .projects-content .work .btnG-d{
+    transform: translate(180%, -200%);
+    -ms-transform: translate(-50%, -50%);
+    width: 177px;
+    height: 53px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #636363;
+    background: #EBEBEB;
+    border: 2px solid #EBEBEB;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .projects .projects-content .work .btnG-d:hover{
+    background: #ffff;
+  }
+  .projects .projects-content .work .btnD-d{
+    transform: translate(175%, -200%);
+    -ms-transform: translate(-50%, -50%);
+    width: 177px;
+    height: 53px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EBEBEB;
+    background: #CE2D3F;
+    border: 2px solid #CE2D3F;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .projects .projects-content .work .btnD-d:hover{
+    background: #d15160;
+  }
+  /* Seccion Herramientas */
+  .tools .tools-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 180px;
+}
+.tools .stripe{
+    width: 60%;
+}
+.tools .stripe img{
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.tools .tools-content .tec{
+    width: 607px;
+    height: 509px;
+}
+.tools .tools-content .mouse{
+    position: relative;
+    width: 500px;
+    height: 750px;
+    z-index: 100;
+    top: -200px;
+    right: 100px;
+}
+.tools .tools-content .mouse img{
+    width: 600px;
+    height: 901px;
+}
+  /* Seccion Sobre Mi */
+  .about .about-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about .stripe{
+    width: 60%;
+}
+.about .stripe img{
+    margin-bottom: -40px;
+    margin-top: -160px;
+}
+.about .about-content .desktop{
+    width: 579px;
+    height: 923px;
+}
+.about .about-content .book{
+    
+    width: 1327px;
+    height: 579px;
+    
+}
+.about .about-content .book img{
+    width: 1323px;
+    height: 854px;
+    margin-top: -40px
+}  
+.about .about-content .desktop img{
+    width: 579px;
+    height: 923px;
+}
+.about .about-content .book a button{
+    transform: translate(65%, -230%);
+    -ms-transform: translate(-50%, -50%);
+    width: 320px;
+    height: 83px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EBEBEB;
+    background: #CE2D3F;
+    border: 2px solid #CE2D3F;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+.about .about-content .book button:hover{
+    background: #d15160;
+}
+/* Responsive */
+/* @media (max-width: 991px){
+    .max-width{
+        padding: 0 2%;
+    }
+} */
+
+
