@@ -1,7 +1,8 @@
 {
-  "name": "social-network",
+  "homepage": "http://maraveg.github.io/Maravena-Portafolio",
+  "name": "portafolio",
   "version": "1.0.0",
-  "description": "Social Network @ Laboratoria",
+  "description": "Portafolio @ Laboratoria",
   "main": "src/index.html",
   "keywords": [
     "javascript",
@@ -15,7 +16,8 @@
     "stylelint": "stylelint --aei src/**/*.css",
     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
     "test": "jest --coverage",
-    "start": "serve src/"
+    "start": "serve src/",
+    "deploy": "gh-pages -d src"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
